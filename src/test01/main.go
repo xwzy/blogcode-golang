@@ -7,7 +7,7 @@ func main() {
 	b := "你好"
 	b1 := []rune(b)
 
-	fmt.Println(a)
-	fmt.Println(b)
-	fmt.Println(b1)
+	fmt.Println(a)  //[97 98]
+	fmt.Println(b)  //你好
+	fmt.Println(b1) //[20320 22909]
 }
